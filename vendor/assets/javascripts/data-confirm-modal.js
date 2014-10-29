@@ -65,12 +65,12 @@
     var fade = settings.fade ? 'fade' : '';
 
     var modal = $(
-      '<div id="'+id+'" class="modal '+fade+'" tabindex="-1" role="dialog" aria-labelledby="'+id+'Label" aria-hidden="true">' +
+      '<div id="'+id+'" class="modal mainModal'+fade+'" tabindex="-1" role="dialog" aria-labelledby="'+id+'Label" aria-hidden="true">' +
         '<div class="modal-dialog">' +
           '<div class="modal-content">' +
             '<div class="modal-header">' +
               '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>' +
-              '<h4 id="'+id+'Label" class="modal-title"></h4> ' +
+              '<h3 id="'+id+'Label" class="modal-title"></h3> ' +
             '</div>' +
             '<div class="modal-body"></div>' +
             '<div class="modal-footer">' +
